@@ -407,7 +407,6 @@ when writing your script. For example:
 
 # Acknowledgments
 
-## Support
 This work was made possible by funding provided to [Jamie
 Oaks](http://phyletica.org) from the National Science Foundation (DEB 1656004).
 
