@@ -394,14 +394,15 @@ looks like:
 
 # The exercise
 
-Write a Python script to perform the linear regression we did above but for
-each of the three species of *Iris* separately.
+Write a Python script to perform the linear regression and create the plot we
+did above but for each of the three species of *Iris* separately.
 Use
 [best practices](https://github.com/joaks1/python-script-best-practice)
 when writing your script. For example:
 
 -   Make your code modular and reusable by breaking it up into functions.
 -   Use docstrings to document your script and functions.
+-   Write expressive code (e.g., use descriptive variable names).
 -   Make your script importable by using `if __name__ == '__main__'`.
 
 
