@@ -117,15 +117,15 @@ you will use `pip` to install packages.
 
 If you are using a "normal" installation of Python (not anaconda/miniconda),
 you can use the `pip` module to install packages.
-To install the `pandas` and `matplotlib` packages, run this command at the
-command line:
+To install the `pandas`, `matplotlib`, and `scipy` packages, run this command
+at the command line:
 
     $ python3 -m pip install scipy matplotlib pandas
 
 ## Installing packages with conda
 
 If you are using anaconda or miniconda, you can use the `conda` tool to install
-the `pandas` and `matplotlib` packages:
+the `pandas`, `matplotlib`, and `scipy` packages:
 
     $ conda install scipy matplotlib pandas
 
@@ -152,7 +152,7 @@ correctly.
 
 We will only scratch the surface of what these packages are capable of.
 However, all three are very well documented, so you can refer to their online
-documentation to take them further.
+documentation to take these tools further.
 
 ## Getting familiar with pandas
 
@@ -308,8 +308,10 @@ longer than 5.9 cm:
 
 Next, let's get a new data frame with data for one *Iris* species only:
 
+```python
 >>> versicolor = dataframe[dataframe.species == "Iris_versicolor"]
 >>> print(versicolor)
+```
 
         sepal_length_cm  sepal_width_cm  petal_length_cm  petal_width_cm          species
     50              7.0             3.2              4.7             1.4  Iris_versicolor
