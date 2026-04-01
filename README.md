@@ -82,6 +82,13 @@ For this exercise, we will be using three popular Python packages:
 and `re`.
 Before we use them as modules, we need to install them from external packages.
 
+NOTE: If you have created the `biol-7180` conda environment from
+[this repo](https://github.com/joaks1/biol-7180-conda-env),
+you already have these package installed, so you can run
+`conda activate biol-7180`
+and skip down to the
+[next section about learning how to use the packages](#learning-how-to-use-the-packages).
+
 How you install Python packages will depend on the Python installation you are
 using.
 If you are using Python installed with
